@@ -27,7 +27,9 @@ qiniu4blog 是一个使用 Python 实现的 library，方便快速上传本地�
 
         mkdir /Users/username/Pictures/QiNiuPictures
 
-3. 在 Home 目录下新建配置文件 qiniu.cfg（例如 `/Users/username` 或  `C:\Users\username\qiniu.cfg`）
+3. 在 Home 目录下新建配置文件 qiniu.cfg（例如 `/Users/username/qiniu.cfg` 或  `C:\Users\username\qiniu.cfg`）
+
+    bucket, accessKey 和 secreKey 可以从七牛云的相应的账户目录处获得。
 
         [config]
         bucket = qiniu_bucket_name
