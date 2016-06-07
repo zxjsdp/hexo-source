@@ -218,9 +218,22 @@ Metalink：
 
 ## Mac OS X 下 aria2 的使用方式
 
-// TODO
+### 使用 Aria2GUI
+
+在 Mac OS X 下，有一个非常不错的 Aria2 用户界面项目 [Aria2GUI](https://github.com/yangshun1029/aria2gui)，GitHub 链接为：<https://github.com/yangshun1029/aria2gui>。Aria2GUI 自身集成了 aria2，在下载 dmg 文件并安装后，即可使用，无需进行其他繁琐的配置。并且支持多线程。
+
+Aria2GUI 的最新 release 版本请到 GitHub 的 release 页面下载：<https://github.com/yangshun1029/aria2gui/releases>。
+
+![Aria2GUI Screenshot](http://zxjsdp1.qiniudn.com/Aria2GUI_screenshot.png)
+
+### YAAW-for-Chrome 插件
+
+使用 [YAAW-for-Chrome](https://github.com/acgotaku/YAAW-for-Chrome) 插件，可以接管 Chrome 浏览器的下载到 Aria2GUI。YAAW-for-Chrome 的 GitHub 链接为：<https://github.com/acgotaku/YAAW-for-Chrome>，Chrome store 的安装链接为：<https://chrome.google.com/webstore/detail/yaaw-for-chrome/dennnbdlpgjgbcjfgaohdahloollfgoc>。
 
 
+### 导出百度网盘的资源
+
+在 Mac OS X 下，下载百度云上的资源体验较差，没有类似 Windows 上百度云管家类似的原生客户端，使用浏览器下载速度非常慢。因此可以安装 [BaiduExporter](https://github.com/acgotaku/BaiduExporter)，在百度云的下载页面上，将下载链接导出到 Aria2GUI 中下载，将能够得到接近带宽极限的满速体验。
 
 
 ## 主要参考链接：
