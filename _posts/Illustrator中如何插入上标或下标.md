@@ -6,7 +6,7 @@ tags:
   - subscript
   - superscript
   - adobe
-categories: tips
+categories: Tips
 ---
 
 ## 背景

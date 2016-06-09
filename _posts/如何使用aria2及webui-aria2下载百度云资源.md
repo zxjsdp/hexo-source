@@ -6,7 +6,7 @@ tags:
   - aria2
   - webui-aria2
   - baiduyun
-categories: tips
+categories: Tips
 ---
 
 
