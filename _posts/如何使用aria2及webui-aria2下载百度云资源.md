@@ -1,4 +1,4 @@
-title: 如何使用aria2及webui-aria2下载百度云资源
+title: 如何在 Window 及 Mac OS X 下使用 aria2，webui-aria2，或 Aria2GUI 下载百度云资源
 date: 2016-06-05 18:21:20
 tags:
   - tips
@@ -8,8 +8,6 @@ tags:
   - baiduyun
 categories: Tips
 ---
-
-
 
 ## 背景介绍
 
@@ -222,9 +220,22 @@ Metalink：
 
 在 Mac OS X 下，有一个非常不错的 Aria2 用户界面项目 [Aria2GUI](https://github.com/yangshun1029/aria2gui)，GitHub 链接为：<https://github.com/yangshun1029/aria2gui>。Aria2GUI 自身集成了 aria2，在下载 dmg 文件并安装后，即可使用，无需进行其他繁琐的配置。并且支持多线程。
 
+Aria2GUI 可以与已经配置好的 aria2 共存。
+
 Aria2GUI 的最新 release 版本请到 GitHub 的 release 页面下载：<https://github.com/yangshun1029/aria2gui/releases>。
 
 ![Aria2GUI Screenshot](http://zxjsdp1.qiniudn.com/Aria2GUI_screenshot.png)
+
+### Aria2GUI 配置
+
+Aria2GUI 的用户界面中可供修改的选项比较少，例如需求比较大的修改下载路径。
+
+在 Aria2GUI 1.2.4 版本以后，可以通过修改如下文件来自定义 aria2 下载选项：
+
+    /Users/用户名/Library/Application\ Support/com.Aria2GUI/sh/Aria2GUI.sh
+    /Users/用户名/Library/Application\ Support/com.Aria2GUI/sh/startaria.sh
+
+例如，若要修改下载目录，可以将：`--dir="$HOME/Downloads/"` 修改为新的下载路径：`--dir="/absolute/path/for/new/folder/"`。其他可供修改的选项例如 session 文件的位置等。
 
 ### YAAW-for-Chrome 插件
 
